@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Seletor RGB</title>
+    <style id="dinamicStyle"></style>
+  </head>
+  <body>
+    <header>
+      <h2>Tabela RGB</h2>
+    </header>
+    <main>
+      <form>
+        <div>
+          <label style="color: red;">Vermelho - (R)</label>
+          <input
+            type="range"
+            class="slider"
+            name="red"
+            id="red"
+            min="0"
+            max="255"
+        
+          />
+          <input type="text" name="txtRed" id="txtRed" disabled />
+        </div>
+        <div>
+          <label style="color: green;">Verde - (G)</label>
+          <input
+            type="range"
+            class="slider"
+            name="green"
+            id="green"
+            min="0"
+            max="255"
+          />
+          <input type="text" name="txtGreen" id="txtGreen" disabled />
+        </div>
+        <div>
+          <label style="color: blue;">Azul - (B)</label>
+          <input
+            type="range"
+            class="slider"
+            name="blue"
+            id="blue"
+            min="0"
+            max="255"
+          />
+          <input type="text" name="txtBlue" id="txtBlue" disabled />
+        </div>
+        <div>
+          <div id="painelColor"></div>
+        </div>
+      </form>
+    </main>
+    <footer>
+      Desenvolvido por Thiago Vinicius Gomes da Silva - Desenvolvedor Full Stack
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
